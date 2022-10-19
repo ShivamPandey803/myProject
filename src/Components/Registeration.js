@@ -21,7 +21,7 @@ function Registration() {
       setFlag(true);
     } else {
       setFlag(false);
-      localStorage.setItem("shivamPassword", JSON.stringify(email));
+      localStorage.setItem("shivamEmail", JSON.stringify(email));
       localStorage.setItem(
         "shivamPassword",
         JSON.stringify(password)
